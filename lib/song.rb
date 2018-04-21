@@ -73,9 +73,9 @@ class Song
     song.save 
   end
 
-def self.destroy_all
+  def self.destroy_all
   self.all.clear
   #self.all = []
-end
+  end
 
 end
